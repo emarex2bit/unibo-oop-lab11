@@ -31,3 +31,7 @@ tasks.withType<Test>().configureEach {
 tasks.withType<Javadoc>().configureEach {
     isFailOnError = false
 }
+
+application {
+    mainClass.set("it.unibo.oop.lab.streams.LambdaFilter")
+}
