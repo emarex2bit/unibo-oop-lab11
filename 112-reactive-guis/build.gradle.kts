@@ -25,5 +25,5 @@ dependencies {
 application {
     // Run with: ./gradlew -PmainClass=it.unibo.oop.MyMainClass run
     val main: String? by project
-    mainClass.set(main ?: "it.unibo.oop.reactivegui01.Test")
+    mainClass.set(main ?: "it.unibo.oop.reactivegui03.Test")
 }
