@@ -15,3 +15,4 @@ public interface SumMatrix {
      */
     double sum(double[][] matrix);
 }
+
